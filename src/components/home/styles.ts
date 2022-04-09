@@ -8,7 +8,7 @@ export const HomeStyles = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 30% ;
-        height: 800px;
+        height: 100vh;
         display: flex;
         justify-content: left;
         align-items: center ;
