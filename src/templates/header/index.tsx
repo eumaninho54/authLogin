@@ -1,8 +1,6 @@
 import React from 'react'
 import { HeaderStyle } from './styles'
 import Divider from '@mui/material/Divider';
-import { motion } from 'framer-motion';
-
 
 export default function Header() {
   return (
