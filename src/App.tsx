@@ -3,13 +3,16 @@ import Routes from './routes';
 import "./App.css"
 import Header from './templates/header';
 import { BrowserRouter } from 'react-router-dom';
+import GoogleAuthProvider from './context/googleAuthContext';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes />
-    </BrowserRouter>
+    <GoogleAuthProvider>
+      <BrowserRouter>
+        <Header />
+        <Routes />
+      </BrowserRouter>
+    </GoogleAuthProvider>
   );
 }
 

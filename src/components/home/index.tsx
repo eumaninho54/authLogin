@@ -9,34 +9,32 @@ export default function Home() {
   const navigate = useNavigate()
 
   return (
-    <AnimatedPage>
-      <HomeStyles>
-        <section className='banner'>
-          <div className="content">
-            <Typewriter
-              options={{
-                strings: [
-                  'Developed by Angelo Menti',
-                  'Authentication JWT',
-                  'Facebook, Google and Apple'],
-                autoStart: true,
-                loop: true,
-                delay: 80
-              }} />
+    <HomeStyles>
+      <AnimatedPage>
+        <div className="content">
+          <Typewriter
+            options={{
+              strings: [
+                'Developed by Angelo Menti',
+                'Authentication JWT',
+                'Facebook, Google and Apple'],
+              autoStart: true,
+              loop: true,
+              delay: 80
+            }} />
 
-            <h1>LOGIN AUTHENTICATION</h1>
+          <h1>LOGIN AUTHENTICATION</h1>
 
-            <Button
-              size='large'
-              className='btSignUp'
-              variant='outlined'
-              onClick={() => navigate("login")}>
-              Sign Up
-            </Button>
-          </div>
-        </section>
-      </HomeStyles>
-    </AnimatedPage>
+          <Button
+            size='large'
+            className='btSignUp'
+            variant='outlined'
+            onClick={() => navigate("login")}>
+            Sign Up
+          </Button>
+        </div>
+      </AnimatedPage >
+    </HomeStyles>
   )
 }
 

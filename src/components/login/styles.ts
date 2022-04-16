@@ -46,9 +46,10 @@ export const LoginStyles = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 300px;
     text-decoration: none;
+    margin-bottom: 20px;
+    cursor: pointer;
   }
 
   .logo {
