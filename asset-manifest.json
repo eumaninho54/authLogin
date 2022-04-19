@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/authLogin/static/css/main.1a95fcee.css",
+    "main.js": "/authLogin/static/js/main.aae4bd5d.js",
+    "static/js/787.48786fe3.chunk.js": "/authLogin/static/js/787.48786fe3.chunk.js",
+    "static/media/banner.png": "/authLogin/static/media/banner.51699566edf9a992c494.png",
+    "index.html": "/authLogin/index.html",
+    "main.1a95fcee.css.map": "/authLogin/static/css/main.1a95fcee.css.map",
+    "main.aae4bd5d.js.map": "/authLogin/static/js/main.aae4bd5d.js.map",
+    "787.48786fe3.chunk.js.map": "/authLogin/static/js/787.48786fe3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a95fcee.css",
+    "static/js/main.aae4bd5d.js"
+  ]
+}
