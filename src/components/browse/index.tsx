@@ -1,14 +1,12 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import AnimatedPage from '../animatedPage'
 import { BrowseStyles } from './styles'
-import { Button, Divider } from '@mui/material'
+import { Button } from '@mui/material'
 import { AuthContext } from '../../context/authContext'
-import { motion, Variants } from 'framer-motion'
-import { Logout } from '@mui/icons-material'
 
 export default function Browse() {
-  const { infoLogin, setInfoLogin, authenticated, setAuthenticated } = useContext(AuthContext)
+  const { infoLogin, authenticated, setAuthenticated } = useContext(AuthContext)
   const navigate = useNavigate()
 
   useEffect(() => {

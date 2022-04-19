@@ -37,4 +37,17 @@ export const HomeStyles = styled.div`
     border-color: #48c4de;
     padding: 3px 25px;
   }
+
+  @media only screen and (max-width: 800px) {
+    justify-content: center;
+
+    .content {
+      margin-left: 0;
+    }
+
+    h1{
+      font-size: 32px;
+      text-align: center;
+    }
+  }
 `;

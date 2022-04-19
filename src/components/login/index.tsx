@@ -8,11 +8,10 @@ import { useNavigate } from 'react-router-dom';
 import GoogleLogin from 'react-google-login';
 import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props'
 import { AuthContext } from '../../context/authContext';
-import { authModel } from '../../models/authModel';
 
 
 export default function Login() {
-  const {infoLogin, setInfoLogin, authenticated} = useContext(AuthContext)
+  const { setInfoLogin, authenticated } = useContext(AuthContext)
 
   const navigate = useNavigate()
   const REACT_APP_GOOGLE_ID: string = String(process.env.REACT_APP_GOOGLE_ID)
@@ -58,7 +57,7 @@ export default function Login() {
               appId={REACT_APP_FACEBOOK_ID}
               callback={(response: any) => responseCallback(response, 'facebook')}
               fields={'name,email,picture'}
-              
+
 
               render={(renderProps: { onClick: React.MouseEventHandler<HTMLElement> }) => (
                 <section onClick={renderProps.onClick} className='socialMidia'>

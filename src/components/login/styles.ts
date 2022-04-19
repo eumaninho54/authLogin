@@ -68,4 +68,10 @@ export const LoginStyles = styled.div`
     border: 1px solid;
     font-size: 14px;
   }
+
+  @media only screen and (max-width: 380px) {
+    .bg {
+      width: 220px;
+    }
+  }
 `;

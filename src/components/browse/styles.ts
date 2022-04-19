@@ -51,4 +51,21 @@ export const BrowseStyles = styled.div`
   .title {
     font-size: 18px;
   }
+
+  @media only screen and (max-width: 390px) {
+    .content{
+      h1 {
+        font-size: 14px;
+      }
+
+      span{
+        font-size: 12px;
+      }
+    }
+
+    .bg{
+      width: 240px;
+      padding: 10px;
+    }
+  }
 `;
