@@ -37,12 +37,12 @@ export default function Login() {
       })
     }
     window.localStorage.setItem('accessToken', response.accessToken)
-    navigate('/browse')
+    navigate(process.env.PUBLIC_URL + '/browse')
   }
 
   useEffect(() => {
     if (authenticated) {
-      navigate('/browse')
+      navigate(process.env.PUBLIC_URL + '/browse')
     }
   }, [authenticated, navigate])
 
@@ -86,7 +86,7 @@ export default function Login() {
                 </section>
               )} />
 
-            <Button style={{ marginTop: '20px' }} onClick={() => navigate("/")}>BACK</Button>
+            <Button style={{ marginTop: '20px' }} onClick={() => navigate(process.env.PUBLIC_URL + "/")}>BACK</Button>
           </div>
         </div>
       </AnimatedPage>

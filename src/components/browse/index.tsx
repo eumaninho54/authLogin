@@ -11,14 +11,14 @@ export default function Browse() {
 
   useEffect(() => {
     if (!authenticated) {
-      navigate('/login')
+      navigate(process.env.PUBLIC_URL + '/login')
     }
   }, [authenticated, navigate])
 
   const logout = () => {
     setAuthenticated(false)
 
-    navigate("/login")
+    navigate(process.env.PUBLIC_URL + "/login")
   }
 
 

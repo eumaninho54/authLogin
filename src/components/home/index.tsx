@@ -29,7 +29,7 @@ export default function Home() {
             size='large'
             className='btSignUp'
             variant='outlined'
-            onClick={() => navigate("login")}>
+            onClick={() => navigate(process.env.PUBLIC_URL + "/login")}>
             Sign Up
           </Button>
         </div>
