@@ -8,7 +8,7 @@ import AuthProvider from './context/authContext';
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <Routes />
       </BrowserRouter>
