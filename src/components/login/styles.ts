@@ -1,16 +1,13 @@
 import styled from "styled-components";
-
 import banner from "../../assets/banner.png"
 
 export const LoginStyles = styled.div`
-
   background-image: url(${banner});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30%;
   height: 100vh;
 
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;

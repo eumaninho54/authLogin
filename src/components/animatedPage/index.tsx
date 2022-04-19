@@ -11,14 +11,11 @@ export default function AnimatedPage({ children }: {children: React.ReactNode}) 
 
   const animations: Variants = {
     initial: { 
-      opacity: 0, translateX: document.body.offsetWidth < 645 ? '' : -(widthBrowse / 10), 
-      transitionDuration: '0.3', transitionProperty: 'all'},
+      opacity: 0},
     animate: { 
-      opacity: 1,  translateX: 0, 
-      transitionDuration: '0.3', transitionProperty: 'all'},
+      opacity: 1},
     exit: { 
-      opacity: 0,  translateX: document.body.offsetWidth < 645 ? '' : (widthBrowse / 10), 
-      transitionDuration: '0.3', transitionProperty: 'all'},
+      opacity: 0},
   }
 
   return (
