@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+<div align="center">
+  <img style="height: 100px" src="https://user-images.githubusercontent.com/87163356/164119485-723f0d9a-d98e-4404-96b9-bfcb87d517b5.png">
+  <h1 size='10px' align= "center">AuthLogin - JWT</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img style="max-height: 700px" src="https://user-images.githubusercontent.com/87163356/164120817-a6a7e531-7713-46d6-9e1e-500e80d34a00.png">
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+# About 💻
 
-### `npm start`
+This is a small project where I develop a JWT token authentication application. It is possible to login through facebook or google, and the data is shown on screen along with the token allowing the route. Note: As there is no backend, the token is not saved and its cycle built, but the idea of authentication is the same with backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The project consists of a landing page built with:
+- HTML
+- CSS
+- Typescript
+- ReactJs
+- React-facebook-login
+- React-google-login
 
-### `npm test`
+# Installation and Setup Instructions 🛠
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Installation: `npm install`
+2. In the project directory, you can run: `npm start`
+3. Open http://localhost:3000 to view it in the browser.
 
-### `npm run build`
+# Support me ☕
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Motivate me to continue studying and coding the world
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://www.buymeacoffee.com/ymaninho54" target="_blank" rel=”noopener”>
+  <img src="https://camo.githubusercontent.com/9098104e5daafdc329a70518b45ded656f305d1043fa6454ce405aec84509740/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d76696f6c65742e706e67" alt="Buy me Coffee" max-height="60px" width="217px">
+</a>
