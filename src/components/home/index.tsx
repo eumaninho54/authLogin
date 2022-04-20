@@ -17,7 +17,7 @@ export default function Home() {
               strings: [
                 'Developed by Angelo Menti',
                 'Authentication JWT',
-                'Facebook, Google and Apple'],
+                'Facebook and Google'],
               autoStart: true,
               loop: true,
               delay: 80
