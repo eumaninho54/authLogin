@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <HeaderStyle>
       <nav className='content'>
-        <a href="https://github.com/ymaninho54" target='_blank' rel="noreferrer" className='linkHeader'>Github</a>
+        <a href="https://github.com/eumaninho54" target='_blank' rel="noreferrer" className='linkHeader'>Github</a>
         <Divider orientation='vertical' variant='middle' flexItem color='gray' />
 
         <h1 className='title'>AuthLogin</h1>
