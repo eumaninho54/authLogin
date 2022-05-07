@@ -1,7 +1,7 @@
 {
   "name": "authlogin",
   "version": "0.1.0",
-  "homepage": "https://ymaninho54.github.io/authLogin",
+  "homepage": "https://eumaninho54.github.io/authLogin",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
